@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/fonts/Inter-VariableFont_slnt,wght.ttf">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  @font-face {
+      font-family: 'Inter';
+      src: url('assets/fonts/Inter-Regular.woff2') format('woff2'),
+          url('assets/fonts/Inter-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'Inter';
+      src: url('/assets/fonts/Inter-Bold.woff2') format('woff2'),
+          url('/assets/fonts/Inter-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+  }
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color:#141414 ;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .contenedor img{
+      border-radius: 100%;
+    }
+
+    .contenedor{
+      margin: 50px;
+      border-radius: 1rem;
+      font-family: ;
+      font-size: 11px;
+      height: 100vh;
+      background-color: #1F1F1F;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: whitesmoke;
+    }
+
+    .contenedor .green{
+      color: #3B4F01;
+    }
+
+    .contenedor .boton{
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: center;
+      background-color: #333333;
+      border-radius: 0.5rem;
+      padding: 10px;
+      width: 200px;
+    }
+
+    @media screen and (min-width:1023px) {
+      .contenedor{
+        width: 300px;
+        margin: 1rem auto;
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <main class="contenedor">
+    <img src="assets/images/avatar-jessica.jpeg" alt="">
+    <h1>Jessica Randall</h1> 
+    <p class="green">London, United Kingdom </p>
+    <p> "Front-end developer and avid reader." </p>
+    <!-- botones -->
+    <div class="boton"> GitHub </div>
+    <div class="boton"> Frontend Mentor </div>
+    <div class="boton"> LinkedIn </div>
+    <div class="boton"> Twitter </div>
+    <div class="boton"> Instagram </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
